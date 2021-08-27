@@ -1,0 +1,20 @@
+name: "scoverage-report-gha"
+description: "Posts scoverage report summary results as comments in Github Pull Requests"
+author: "Flipp"
+inputs:
+  repo:
+    description: "Repository name"
+  pr:
+    description: "Issue (PR) number"
+  token:
+    description: "Github access token"
+  file:
+    description: "Name of sbt-scoverage xml report to parse"
+  minStatementCov:
+    description: "minimum value of % statement coverage [0, 1]"
+outputs:
+  statementCoverage:
+    description: "% value of statement coverage"
+runs:
+  using: "docker"
+  image: "Dockerfile"
