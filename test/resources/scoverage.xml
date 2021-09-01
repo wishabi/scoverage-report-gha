@@ -1,0 +1,1412 @@
+<scoverage
+        statement-count="382" statements-invoked="363" statement-rate="95.03" branch-rate="100.00" version="1.0" timestamp="1629384040084">
+    <packages>
+        <package name="com.app.testproject" statement-count="252" statements-invoked="249" statement-rate="98.81">
+            <classes>
+                <class
+                        name="com.app.testproject.ProcessorLive" filename="com/app/testproject/Processor.scala" statement-count="136" statements-invoked="135" statement-rate="99.26" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject/ProcessorLive/function1" statement-count="9" statements-invoked="9" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function1" start="2304" end="2327" line="61" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function1" start="2373" end="2398" line="64" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function1" start="2348" end="2371" line="64" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function1" start="2192" end="2230" line="60" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function1" start="2311" end="2326" line="61" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function1" start="2316" end="2326" line="61" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function1" start="2290" end="2328" line="61" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function1" start="2340" end="2399" line="64" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function1" start="2184" end="2236" line="60" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/ProcessorLive/function3" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function3" start="1550" end="1562" line="42" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function3" start="1525" end="1563" line="42" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/ProcessorLive/function2" statement-count="49" statements-invoked="49" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1273" end="1361" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1327" end="1359" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1349" end="1359" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function2" start="1284" end="1284" line="37" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/ProcessorLive/function4" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function4" start="2920" end="2956" line="81" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function4" start="2845" end="2915" line="80" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function4" start="2876" end="2914" line="80" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/ProcessorLive/function5" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function5" start="1615" end="1645" line="45" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function5" start="1640" end="1644" line="45" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/ProcessorLive/&lt;none&gt;" statement-count="9" statements-invoked="9" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="&lt;none&gt;" start="2984" end="2986" line="84" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="&lt;none&gt;" start="862" end="880" line="27" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="&lt;none&gt;" start="1182" end="1182" line="34" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="&lt;none&gt;" start="2443" end="2742" line="67" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="&lt;none&gt;" start="816" end="833" line="26" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Object" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="&lt;none&gt;" start="4883" end="4915" line="126" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="&lt;none&gt;" start="1167" end="1189" line="34" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="&lt;none&gt;" start="741" end="779" line="25" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Object" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="&lt;none&gt;" start="4883" end="4906" line="126" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/ProcessorLive/function6" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function6" start="1095" end="1102" line="31" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function6" start="1021" end="1025" line="30" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/ProcessorLive/function7" statement-count="24" statements-invoked="23" statement-rate="95.83" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3726" end="3729" line="103" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3073" end="3073" line="87" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3478" end="3496" line="98" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3777" end="3780" line="103" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3189" end="3217" line="90" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3840" end="3852" line="104" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3297" end="3343" line="93" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3527" end="3584" line="99" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3378" end="3464" line="96" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3666" end="3709" line="102" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3860" end="3866" line="104" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3166" end="3370" line="94" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3683" end="3709" line="102" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3073" end="3470" line="87" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3732" end="3774" line="103" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3561" end="3583" line="99" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3722" end="3806" line="103" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3266" end="3279" line="92" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3783" end="3806" line="103" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3236" end="3248" line="91" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3083" end="3083" line="87" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3623" end="3642" line="101" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3820" end="3853" line="104" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function7" start="3364" end="3369" line="94" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/ProcessorLive/function8" statement-count="10" statements-invoked="10" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function8" start="1823" end="1846" line="51" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function8" start="1865" end="1865" line="52" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function8" start="1898" end="1941" line="53" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function8" start="1742" end="1778" line="48" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function8" start="1830" end="1845" line="51" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function8" start="1836" end="1844" line="51" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function8" start="1811" end="1846" line="51" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function8" start="1786" end="1951" line="52" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function8" start="1742" end="1763" line="48" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="function8" start="1811" end="1819" line="51" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/ProcessorLive/apply" statement-count="26" statements-invoked="26" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="3893" end="3916" line="105" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4756" end="4777" line="121" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4432" end="4453" line="116" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4630" end="4696" line="119" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="3906" end="3915" line="105" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4373" end="4414" line="115" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="3927" end="4781" line="106" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="3981" end="4037" line="108" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4489" end="4516" line="117" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="3063" end="4781" line="87" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4186" end="4230" line="112" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4568" end="4596" line="118" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="3501" end="4781" line="99" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4475" end="4533" line="117" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4309" end="4352" line="114" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4554" end="4613" line="118" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="3880" end="3916" line="105" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4425" end="4454" line="116" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4747" end="4777" line="121" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="3091" end="3122" line="87" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4129" end="4169" line="111" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4056" end="4079" line="109" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="3590" end="4781" line="100" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4522" end="4532" line="117" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4602" end="4612" line="118" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="ProcessorLive" class-type="Class" full-class-name="com.app.testproject.ProcessorLive" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="4246" end="4290" line="113" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+                <class
+                        name="com.app.testproject.Converter" filename="com/app/testproject/Converter.scala" statement-count="114" statements-invoked="112" statement-rate="98.25" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject/Converter/function1" statement-count="87" statements-invoked="86" statement-rate="98.85" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2077" end="4853" line="54" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4619" end="4619" line="110" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1860" end="4853" line="51" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2048" end="2069" line="53" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4513" end="4523" line="108" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2231" end="4717" line="58" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3242" end="3289" line="81" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3613" end="3613" line="88" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4070" end="4071" line="98" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2734" end="2765" line="68" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3124" end="3144" line="79" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3384" end="3384" line="83" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3967" end="3990" line="96" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2767" end="2767" line="68" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2997" end="3169" line="79" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1725" end="1785" line="48" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2503" end="2520" line="63" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4766" end="4828" line="114" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4658" end="4684" line="111" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4138" end="4153" line="100" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1383" end="4853" line="40" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4186" end="4214" line="101" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3640" end="3676" line="89" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2675" end="2700" line="66" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3073" end="3092" line="78" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3243" end="3258" line="81" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1842" end="1852" line="50" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3923" end="4022" line="96" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1567" end="1577" line="43" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3192" end="3217" line="80" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4635" end="4684" line="111" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4754" end="4754" line="113" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3924" end="4013" line="96" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3641" end="3667" line="89" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4198" end="4213" line="101" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2992" end="4717" line="77" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1917" end="4853" line="52" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4064" end="4068" line="98" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3704" end="3725" line="90" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2997" end="3098" line="78" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3279" end="3288" line="81" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1482" end="1482" line="42" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1968" end="1994" line="52" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2743" end="2743" line="68" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4230" end="4449" line="104" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1664" end="1695" line="47" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1447" end="4853" line="41" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4490" end="4525" line="108" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4788" end="4827" line="114" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4148" end="4152" line="100" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3433" end="3453" line="83" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3112" end="3112" line="79" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2356" end="2409" line="61" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2784" end="2969" line="69" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3561" end="3813" line="92" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3052" end="3071" line="78" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1636" end="1786" line="48" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2445" end="2578" line="64" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3769" end="3812" line="92" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2170" end="4717" line="57" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1803" end="4853" line="50" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4494" end="4524" line="108" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4070" end="4079" line="98" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4754" end="4754" line="113" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3992" end="3996" line="96" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3196" end="3216" line="80" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3476" end="3480" line="84" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4208" end="4212" line="101" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4655" end="4655" line="111" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2552" end="2577" line="64" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2715" end="2969" line="68" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1719" end="1719" line="48" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3260" end="3277" line="81" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3705" end="3716" line="90" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1899" end="1909" line="51" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4619" end="4619" line="110" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1495" end="1531" line="42" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2002" end="4853" line="53" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="4315" end="4449" line="106" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2614" end="2701" line="66" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3032" end="3097" line="78" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3849" end="3849" line="94" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="1552" end="1577" line="43" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3146" end="3168" line="79" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="3308" end="3361" line="82" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2356" end="2402" line="61" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function1" start="2820" end="2953" line="70" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/Converter/&lt;none&gt;" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="&lt;none&gt;" start="823" end="864" line="24" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/Converter/function2" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function2" start="5867" end="6030" line="143" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function2" start="6013" end="6030" line="143" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function2" start="6045" end="6053" line="144" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function2" start="6017" end="6029" line="143" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/Converter/run" statement-count="10" statements-invoked="9" statement-rate="90.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="run" start="1204" end="1256" line="34" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="run" start="925" end="1307" line="36" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="run" start="1033" end="1075" line="31" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="run" start="1121" end="1121" line="32" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="run" start="1122" end="1165" line="32" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="run" start="980" end="1181" line="29" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="run" start="1283" end="1283" line="35" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="run" start="1284" end="1290" line="35" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="run" start="1148" end="1164" line="32" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="run" start="1121" end="1121" line="32" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject/Converter/function3" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5023" end="5162" line="120" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5718" end="5726" line="135" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5214" end="5379" line="127" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5690" end="5702" line="134" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5569" end="5674" line="133" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5129" end="5162" line="120" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5433" end="5703" line="134" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5346" end="5379" line="127" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5456" end="5559" line="132" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5142" end="5154" line="121" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5686" end="5703" line="134" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Converter" class-type="Object" full-class-name="com.app.testproject.Converter" source="/git/test-project/src/main/scala/com/app/testproject/Converter.scala" method="function3" start="5359" end="5371" line="128" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+                <class
+                        name="com.app.testproject.Processor" filename="com/app/testproject/Processor.scala" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject/Processor/apply" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject" class="Processor" class-type="Object" full-class-name="com.app.testproject.Processor" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="561" end="615" line="20" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject" class="Processor" class-type="Object" full-class-name="com.app.testproject.Processor" source="/git/test-project/src/main/scala/com/app/testproject/Processor.scala" method="apply" start="595" end="614" line="20" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+            </classes>
+        </package>
+        <package name="com.app.testproject.config" statement-count="54" statements-invoked="46" statement-rate="85.19">
+            <classes>
+                <class
+                        name="com.app.testproject.config.StorageConfig" filename="com/app/testproject/config/StorageConfig.scala" statement-count="27" statements-invoked="19" statement-rate="70.37" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject.config/StorageConfig/&lt;none&gt;" statement-count="26" statements-invoked="18" statement-rate="69.23" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="672" end="701" line="21" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1144" end="1207" line="37" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="666" end="1510" line="43" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1353" end="1406" line="40" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="729" end="747" line="23" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1556" end="1619" line="46" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1625" end="1691" line="47" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="666" end="793" line="20" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="799" end="799" line="26" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1668" end="1691" line="47" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="773" end="789" line="25" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="983" end="1485" line="34" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1500" end="1509" line="43" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1547" end="1707" line="48" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1073" end="1134" line="36" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="707" end="723" line="22" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1284" end="1343" line="39" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1604" end="1619" line="46" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1217" end="1274" line="38" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1556" end="1600" line="46" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="753" end="767" line="24" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1625" end="1664" line="47" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1416" end="1477" line="41" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="996" end="1063" line="35" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="799" end="799" line="26" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="&lt;none&gt;" start="1699" end="1707" line="48" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.config/StorageConfig/function1" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.config" class="StorageConfig" class-type="Class" full-class-name="com.app.testproject.config.StorageConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/StorageConfig.scala" method="function1" start="1741" end="2043" line="58" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+                <class
+                        name="com.app.testproject.config.package" filename="com/app/testproject/config/package.scala" statement-count="26" statements-invoked="26" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject.config/package/&lt;none&gt;" statement-count="14" statements-invoked="14" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="1117" end="1117" line="32" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="989" end="1035" line="30" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="1069" end="1085" line="31" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="372" end="409" line="15" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="969" end="1037" line="30" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="1118" end="1124" line="32" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="448" end="469" line="17" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="908" end="1125" line="32" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="393" end="408" line="15" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="984" end="1036" line="30" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="250" end="291" line="12" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="1056" end="1086" line="31" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="341" end="410" line="15" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="&lt;none&gt;" start="1117" end="1117" line="32" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.config/package/loadAppConfigFrom" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="648" end="657" line="22" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="822" end="822" line="26" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="714" end="752" line="24" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="786" end="802" line="25" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="823" end="829" line="26" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="585" end="658" line="22" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="557" end="830" line="26" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="694" end="754" line="24" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="709" end="753" line="24" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="773" end="803" line="25" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="607" end="607" line="22" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.config" class="package" class-type="Object" full-class-name="com.app.testproject.config.package" source="/git/test-project/src/main/scala/com/app/testproject/config/package.scala" method="loadAppConfigFrom" start="822" end="822" line="26" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+                <class
+                        name="com.app.testproject.config.AppConfig" filename="com/app/testproject/config/AppConfig.scala" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject.config/AppConfig/function1" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.config" class="AppConfig" class-type="Class" full-class-name="com.app.testproject.config.AppConfig" source="/git/test-project/src/main/scala/com/app/testproject/config/AppConfig.scala" method="function1" start="398" end="722" line="21" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+            </classes>
+        </package>
+        <package name="com.app.testproject.monitoring" statement-count="29" statements-invoked="28" statement-rate="96.55">
+            <classes>
+                <class
+                        name="com.app.testproject.monitoring.Reporter" filename="com/app/testproject/monitoring/Reporting.scala" statement-count="23" statements-invoked="22" statement-rate="95.65" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject.monitoring/Reporter/function1" statement-count="9" statements-invoked="8" statement-rate="88.89" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function1" start="3059" end="3276" line="97" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function1" start="3292" end="3340" line="106" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function1" start="3023" end="3051" line="95" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function1" start="3023" end="3043" line="95" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function1" start="3215" end="3256" line="101" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function1" start="3314" end="3339" line="106" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function1" start="3304" end="3312" line="106" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function1" start="3288" end="3341" line="106" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function1" start="3155" end="3179" line="100" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.monitoring/Reporter/make" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="make" start="1693" end="1714" line="48" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="make" start="1874" end="1902" line="53" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="make" start="1722" end="1997" line="49" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="make" start="1770" end="1968" line="50" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="make" start="1838" end="1862" line="52" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="make" start="1914" end="1932" line="54" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="make" start="1620" end="1997" line="48" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="make" start="1802" end="1826" line="51" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.monitoring/Reporter/function2" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function2" start="2322" end="2413" line="74" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function2" start="2771" end="2846" line="88" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function2" start="2218" end="2297" line="69" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function2" start="2731" end="2766" line="86" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function2" start="2434" end="2712" line="84" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Reporter" class-type="Object" full-class-name="com.app.testproject.monitoring.Reporter" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Reporting.scala" method="function2" start="2718" end="2846" line="86" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+                <class
+                        name="com.app.testproject.monitoring.Instrumentation" filename="com/app/testproject/monitoring/Instrumentation.scala" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject.monitoring/Instrumentation/meter" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Instrumentation" class-type="Trait" full-class-name="com.app.testproject.monitoring.Instrumentation" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Instrumentation.scala" method="meter" start="835" end="854" line="21" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Instrumentation" class-type="Object" full-class-name="com.app.testproject.monitoring.Instrumentation" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Instrumentation.scala" method="meter" start="1254" end="1311" line="33" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Instrumentation" class-type="Object" full-class-name="com.app.testproject.monitoring.Instrumentation" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Instrumentation.scala" method="meter" start="1292" end="1310" line="33" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="Instrumentation" class-type="Object" full-class-name="com.app.testproject.monitoring.Instrumentation" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Instrumentation.scala" method="meter" start="1296" end="1309" line="33" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+                <class
+                        name="com.app.testproject.monitoring.InstrumentationLive" filename="com/app/testproject/monitoring/Instrumentation.scala" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject.monitoring/InstrumentationLive/layer" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="InstrumentationLive" class-type="Class" full-class-name="com.app.testproject.monitoring.InstrumentationLive" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Instrumentation.scala" method="layer" start="1420" end="1515" line="38" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.monitoring" class="InstrumentationLive" class-type="Class" full-class-name="com.app.testproject.monitoring.InstrumentationLive" source="/git/test-project/src/main/scala/com/app/testproject/monitoring/Instrumentation.scala" method="layer" start="1442" end="1445" line="39" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+            </classes>
+        </package>
+        <package name="com.app.testproject.serde" statement-count="47" statements-invoked="40" statement-rate="85.11">
+            <classes>
+                <class
+                        name="com.app.testproject.serde.Serdes" filename="com/app/testproject/serde/Serde.scala" statement-count="39" statements-invoked="35" statement-rate="89.74" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject.serde/Serdes/function1" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function1" start="1393" end="1422" line="42" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.serde/Serdes/function2" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function2" start="1275" end="1303" line="39" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.serde/Serdes/function3" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function3" start="1684" end="1706" line="48" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.serde/Serdes/function4" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function4" start="1569" end="1591" line="45" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function4" start="1526" end="1593" line="45" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function4" start="1565" end="1592" line="45" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.serde/Serdes/function5" statement-count="10" statements-invoked="10" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function5" start="2010" end="2010" line="57" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function5" start="2067" end="2071" line="58" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function5" start="2109" end="2124" line="58" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function5" start="2032" end="2088" line="58" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function5" start="1948" end="1963" line="54" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function5" start="1969" end="2126" line="58" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function5" start="2038" end="2055" line="58" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function5" start="2067" end="2087" line="58" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function5" start="2095" end="2125" line="58" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function5" start="2010" end="2010" line="57" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.serde/Serdes/function6" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function6" start="1799" end="1822" line="51" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.serde/Serdes/function6" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function6" start="1114" end="1187" line="36" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function6" start="1153" end="1186" line="36" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function6" start="1157" end="1185" line="36" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.serde/Serdes/function7" statement-count="19" statements-invoked="16" statement-rate="84.21" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2419" end="2601" line="69" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2256" end="2276" line="63" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2893" end="2924" line="80" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2282" end="2339" line="65" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2759" end="2789" line="76" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2468" end="2505" line="69" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2807" end="2870" line="77" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2472" end="2504" line="69" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2822" end="2869" line="77" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2632" end="2888" line="75" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2523" end="2591" line="70" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2759" end="2763" line="76" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2307" end="2331" line="65" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2755" end="2790" line="76" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2472" end="2476" line="69" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2709" end="2880" line="76" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2538" end="2590" line="70" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2364" end="2609" line="68" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="Serdes" class-type="Object" full-class-name="com.app.testproject.serde.Serdes" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="function7" start="2307" end="2324" line="65" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+                <class
+                        name="com.app.testproject.serde.SerdeConfigLive" filename="com/app/testproject/serde/Serde.scala" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject.serde/SerdeConfigLive/layer" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="SerdeConfigLive" class-type="Object" full-class-name="com.app.testproject.serde.SerdeConfigLive" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="layer" start="904" end="982" line="29" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="SerdeConfigLive" class-type="Object" full-class-name="com.app.testproject.serde.SerdeConfigLive" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="layer" start="858" end="990" line="28" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="SerdeConfigLive" class-type="Object" full-class-name="com.app.testproject.serde.SerdeConfigLive" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="layer" start="880" end="984" line="29" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="SerdeConfigLive" class-type="Object" full-class-name="com.app.testproject.serde.SerdeConfigLive" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="layer" start="900" end="983" line="29" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                        <method
+                                name="com.app.testproject.serde/SerdeConfigLive/props" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="SerdeConfigLive" class-type="Class" full-class-name="com.app.testproject.serde.SerdeConfigLive" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="props" start="754" end="758" line="23" branch="false" invocation-count="1" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+                <class
+                        name="com.app.testproject.serde.SerdeConfig" filename="com/app/testproject/serde/Serde.scala" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method
+                                name="com.app.testproject.serde/SerdeConfig/props" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement
+                                        package="com.app.testproject.serde" class="SerdeConfig" class-type="Object" full-class-name="com.app.testproject.serde.SerdeConfig" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="props" start="619" end="632" line="19" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="SerdeConfig" class-type="Object" full-class-name="com.app.testproject.serde.SerdeConfig" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="props" start="623" end="631" line="19" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                                <statement
+                                        package="com.app.testproject.serde" class="SerdeConfig" class-type="Object" full-class-name="com.app.testproject.serde.SerdeConfig" source="/git/test-project/src/main/scala/com/app/testproject/serde/Serde.scala" method="props" start="584" end="633" line="19" branch="false" invocation-count="0" ignored="false">
+                                </statement>
+                            </statements>
+                        </method>
+                    </methods>
+                </class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>
