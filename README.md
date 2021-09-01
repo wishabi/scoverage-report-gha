@@ -45,7 +45,7 @@ jobs:
     # Then call the report action to post comment to PR (on PR event)
     - name: Run report action
       if: ${{ github.event.pull_request }}
-      uses: wishabi/scoverage-report-gha@v0.1
+      uses: wishabi/scoverage-report-gha@v0.1-alpha
       id: scoverage
       with:
         repo: ${{ github.repository }}
