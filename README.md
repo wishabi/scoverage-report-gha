@@ -24,7 +24,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
 
     # Assuming you have an sbt scala project with scoverage plugin
     # ...
@@ -33,33 +33,37 @@ jobs:
         /usr/local/bin/platform-param-decrypt_linux > ~/.env
         sbt coverage test coverageReport
 
-    # Get scala version from build
+    # Get scala version from build (on PR event)
     - name: Get Scala Version
+      if: ${{ github.event.pull_request }}
       id: get-version
       run: |
         version=$(echo target/scala* | cut -c14-)
       echo "scala version is ${version}"
       echo "::set-output name=version::$version"
-        
-    # Get PR number
-    - name: Get current PR number
-      uses: jwalton/gh-find-current-pr@v1
-      id: findPr
-      with:
-        state: open
-        
-    # Then call the report action to post comment to PR   
+                
+    # Then call the report action to post comment to PR (on PR event)
     - name: Run report action
-      uses: wishabi/scoverage-report-gha@v0.1
+      if: ${{ github.event.pull_request }}
+      uses: wishabi/scoverage-report-gha@v0.1-alpha
       id: scoverage
       with:
         repo: ${{ github.repository }}
-        pr: ${{ steps.findPr.outputs.number }}
+        pr: ${{ github.event.pull_request.number }}
         token: ${{ secrets.GITHUB_TOKEN }}
         file: target/scala-${{ steps.get-version.outputs.version }}/scoverage-report/scoverage.xml
         minStatementCov: 0.95
     
+    # (Optional) Print test coverage output (on PR event)
     - name: Check outputs
+        if: ${{ github.event.pull_request }}
         run: |
         echo "Statement Coverage - ${{ steps.scoverage.outputs.statementCoverage }}"
+```
+
+## Tests
+
+```
+cd scoverage-report-gha
+python3 -m unittest -v
 ```
