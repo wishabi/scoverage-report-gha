@@ -15,7 +15,7 @@ class TestProcess(unittest.TestCase):
             'com.app.testproject': 0.9880952380952381,
             'com.app.testproject.config': 0.8518518518518519,
             'com.app.testproject.monitoring': 0.9655172413793104,
-            'com.app.testproject.serde': 0.851063829787234
+            'com.app.testproject.serde': 0.85106382978723
         }
         self.assertEqual(results, expected_results)
 
