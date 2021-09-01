@@ -21,7 +21,6 @@ class TestProcess(unittest.TestCase):
             'statement_coverage': 0.20
         }
         comment = render_pr_comment(results, self.ICON_MAPPINGS, thresholds)
-        print(comment)
         expected_comment = self.__build_comment([
             '|Code Coverage|%|Status|',
             '|:-|:-:|:-:|',
