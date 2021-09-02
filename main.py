@@ -25,15 +25,13 @@ def __valid_threshold(threshold):
 def main(repo_name, pr_number, token, report_name, min_statement_coverage):
 
     icon_mappings = config['render']['icon_mappings']
-    thresholds = {
-        'statement_coverage': __valid_threshold(min_statement_coverage)
-    }
-    results = process_report(report_name)
-    comment = render_pr_comment(results, icon_mappings, thresholds)
+    threshold = __valid_threshold(min_statement_coverage)
+    report_coverage = process_report(report_name, threshold)
+    comment = render_pr_comment(report_coverage, icon_mappings)
     publish_comment(token, repo_name, pr_number, comment)
 
     # Output results for Github Actions
-    print(f"::set-output name=statementCoverage::{results['statement_coverage']}")
+    print(f"::set-output name=statementCoverage::{report_coverage.overall.result}")
 
 
 if __name__ == "__main__":
