@@ -22,11 +22,11 @@ def __valid_threshold(threshold):
     return th
 
 
-def main(repo_name, pr_number, token, report_name, min_statement_coverage):
+def main(repo_name, pr_number, token, report_name, min_statement_coverage, changed_files):
 
     icon_mappings = config['render']['icon_mappings']
     threshold = __valid_threshold(min_statement_coverage)
-    report_coverage = process_report(report_name, threshold)
+    report_coverage = process_report(report_name, threshold, changed_files)
     comment = render_pr_comment(report_coverage, icon_mappings)
     publish_comment(token, repo_name, pr_number, comment)
 
@@ -41,5 +41,6 @@ if __name__ == "__main__":
     access_token = os.environ["INPUT_TOKEN"]
     report_file_name = os.environ["INPUT_FILE"]
     min_stmt_cov = os.environ["INPUT_MINSTATEMENTCOV"]
+    changed_fs = os.environ["INPUT_CHANGEDFILES"]
 
-    main(repo, issue_number, access_token, report_file_name, min_stmt_cov)
+    main(repo, issue_number, access_token, report_file_name, min_stmt_cov, changed_fs)

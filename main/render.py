@@ -1,10 +1,11 @@
 from .models import CommentRow, Comment
-from .models import ReportCoverage, CoverageEntry
+from .models import CoverageType, ReportCoverage, CoverageEntry
 
 
 def render_pr_comment(report_coverage: ReportCoverage, icon_mapping):
     overall_cov = report_coverage.overall
     packages_cov = report_coverage.packages
+    changed_files_cov = report_coverage.changed_files
 
     # Overall coverage
     overall_comment_rows = [
@@ -26,7 +27,22 @@ def render_pr_comment(report_coverage: ReportCoverage, icon_mapping):
             )
         )
 
-    comment = __gen_comment(overall_comment_rows, package_comment_rows)
+    # Coverage for changed files (if applicable)
+    changed_files_comment_rows = []
+    for file_cov in changed_files_cov:
+        changed_files_comment_rows.append(
+            CommentRow(
+                name=file_cov.name,
+                value=file_cov.result,
+                icon=__get_icon(file_cov, icon_mapping)
+            )
+        )
+
+    comment = __gen_comment(
+        overall_comment_rows,
+        package_comment_rows,
+        changed_files_comment_rows
+    )
 
     return comment
 
@@ -37,7 +53,7 @@ def __get_printable_name(coverage_entry_name):
 
 def __get_icon(coverage_entry: CoverageEntry, icon_mapping):
     result_icon = ""
-    if coverage_entry.is_package:
+    if coverage_entry.cov_type in (CoverageType.PACKAGE, CoverageType.CHANGED_FILE):
         result_icon = icon_mapping['na']
     elif coverage_entry.threshold is None:
         result_icon = icon_mapping['unknown']
@@ -50,7 +66,8 @@ def __gen_table(coverage_entries, table_type):
 
     table_headers = {
         'overall': '|Overall|%|Status|',
-        'package': '|Package Coverage|%|Status|'
+        'package': '|Package Coverage|%|Status|',
+        'changed_files': '|Changed File(s)|%|Status|'
     }
 
     table_header = [
@@ -71,11 +88,12 @@ def __gen_table(coverage_entries, table_type):
     return table
 
 
-def __gen_comment(overall_comment_rows, package_comment_rows):
+def __gen_comment(overall_comment_rows, package_comment_rows, changed_files_comment_rows):
 
     overall_table = __gen_table(overall_comment_rows, 'overall')
+    changed_files_table = __gen_table(changed_files_comment_rows, 'changed_files')
     package_table = __gen_table(package_comment_rows, 'package')
 
-    entire_table = overall_table + [''] + package_table
+    entire_table = overall_table + [''] + changed_files_table + [''] + package_table
     table = '\n'.join(entire_table)
     return Comment(table)
