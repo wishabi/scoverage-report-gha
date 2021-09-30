@@ -12,6 +12,8 @@ inputs:
     description: "Name of sbt-scoverage xml report to parse"
   minStatementCov:
     description: "minimum value of % statement coverage [0, 1]"
+  changedFiles:
+    description: "Files changed in a PR"
 outputs:
   statementCoverage:
     description: "% value of statement coverage"
