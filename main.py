@@ -1,4 +1,5 @@
 import os
+import json
 from main.process import process_report
 from main.render import render_pr_comment
 from main.publish import publish_comment
@@ -22,9 +23,14 @@ def __valid_threshold(threshold):
     return th
 
 
-def main(repo_name, pr_number, token, report_name, min_statement_coverage, changed_files):
+def parse_changed_files(changed_files_str):
+    return json.loads(changed_files_str)
+
+
+def main(repo_name, pr_number, token, report_name, min_statement_coverage, changed_files_str):
 
     icon_mappings = config['render']['icon_mappings']
+    changed_files = parse_changed_files(changed_files_str)
     threshold = __valid_threshold(min_statement_coverage)
     report_coverage = process_report(report_name, threshold, changed_files)
     comment = render_pr_comment(report_coverage, icon_mappings)
@@ -41,6 +47,6 @@ if __name__ == "__main__":
     access_token = os.environ["INPUT_TOKEN"]
     report_file_name = os.environ["INPUT_FILE"]
     min_stmt_cov = os.environ["INPUT_MINSTATEMENTCOV"]
-    changed_fs = os.environ["INPUT_CHANGEDFILES"]
+    changed_fs_str = os.environ["INPUT_CHANGEDFILES"]
 
-    main(repo, issue_number, access_token, report_file_name, min_stmt_cov, changed_fs)
+    main(repo, issue_number, access_token, report_file_name, min_stmt_cov, changed_fs_str)
