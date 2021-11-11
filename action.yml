@@ -14,6 +14,8 @@ inputs:
     description: "minimum value of % statement coverage [0, 1]"
   changedFiles:
     description: "Files changed in a PR"
+  includePackageCov:
+    description: "If true, will also print out code coverage results at the package level"
 outputs:
   statementCoverage:
     description: "% value of statement coverage"

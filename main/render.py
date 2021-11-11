@@ -1,20 +1,24 @@
 from .models import CommentRow, Comment
-from .models import CoverageType, ReportCoverage, CoverageEntry
+from .models import CoverageType, ReportCoverage, CoverageEntry, CoverageSection, Table
 
 
-def render_pr_comment(report_coverage: ReportCoverage, icon_mapping):
+def render_pr_comment(report_coverage: ReportCoverage, icon_mapping, include_package_coverage=True):
     overall_cov = report_coverage.overall
     packages_cov = report_coverage.packages
     changed_files_cov = report_coverage.changed_files
 
     # Overall coverage
-    overall_comment_rows = [
-        CommentRow(
-            name=__get_printable_name(overall_cov.name),
-            value=overall_cov.result,
-            icon=__get_icon(overall_cov, icon_mapping)
-        )
-    ]
+    overall_comment_section = CoverageSection(
+        visible=True,
+        headers='|Overall|%|Status|',
+        comment_rows=[
+            CommentRow(
+                name=__get_printable_name(overall_cov.name),
+                value=overall_cov.result,
+                icon=__get_icon(overall_cov, icon_mapping)
+            )
+        ]
+    )
 
     # Per package coverage
     package_comment_rows = []
@@ -26,6 +30,11 @@ def render_pr_comment(report_coverage: ReportCoverage, icon_mapping):
                 icon=__get_icon(pkg, icon_mapping)
             )
         )
+    package_section = CoverageSection(
+        visible=include_package_coverage,
+        headers='|Package Coverage|%|Status|',
+        comment_rows=package_comment_rows
+    )
 
     # Coverage for changed files (if applicable)
     changed_files_comment_rows = []
@@ -37,11 +46,16 @@ def render_pr_comment(report_coverage: ReportCoverage, icon_mapping):
                 icon=__get_icon(file_cov, icon_mapping)
             )
         )
+    changed_files_section = CoverageSection(
+        visible=True,
+        headers='|Changed File(s)|%|Status|',
+        comment_rows=changed_files_comment_rows
+    )
 
     comment = __gen_comment(
-        overall_comment_rows,
-        package_comment_rows,
-        changed_files_comment_rows
+        overall_comment_section,
+        package_section,
+        changed_files_section
     )
 
     return comment
@@ -62,21 +76,15 @@ def __get_icon(coverage_entry: CoverageEntry, icon_mapping):
     return result_icon
 
 
-def __gen_table(coverage_entries, table_type):
-
-    table_headers = {
-        'overall': '|Overall|%|Status|',
-        'package': '|Package Coverage|%|Status|',
-        'changed_files': '|Changed File(s)|%|Status|'
-    }
+def __gen_table(section: CoverageSection):
 
     table_header = [
-        table_headers[table_type],
+        section.headers,
         '|:-|:-:|:-:|'
     ]
 
     table_entries = []
-    for entry in coverage_entries:
+    for entry in section.comment_rows:
         result_name = entry.name
         formatted_result = round(entry.value * 100, 2)
         result_icon = entry.icon
@@ -84,16 +92,32 @@ def __gen_table(coverage_entries, table_type):
             '|%s|%s|%s|' % (result_name, str(formatted_result), result_icon)
         )
 
-    table = table_header + table_entries
+    table_contents = table_header + table_entries
+    table = Table(visible=section.visible, str_contents=table_contents)
     return table
 
 
-def __gen_comment(overall_comment_rows, package_comment_rows, changed_files_comment_rows):
+def __gen_comment(
+    overall_comment_section: CoverageSection,
+    package_section: CoverageSection,
+    changed_files_section: CoverageSection
+):
 
-    overall_table = __gen_table(overall_comment_rows, 'overall')
-    changed_files_table = __gen_table(changed_files_comment_rows, 'changed_files')
-    package_table = __gen_table(package_comment_rows, 'package')
+    tables = [
+        __gen_table(overall_comment_section),
+        __gen_table(changed_files_section),
+        __gen_table(package_section)
+    ]
 
-    entire_table = overall_table + [''] + changed_files_table + [''] + package_table
-    table = '\n'.join(entire_table)
-    return Comment(table)
+    visible_tables = [t for t in tables if t.visible]
+
+    # Separate every table section with an empty row
+    table_str = []
+    for t in visible_tables:
+        table_str += t.str_contents + ['']
+    table_str = table_str[:-1]
+
+    # Compose the entire string that makes up the final comment
+    table_as_msg = '\n'.join(table_str)
+
+    return Comment(table_as_msg)

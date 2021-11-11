@@ -27,13 +27,13 @@ def parse_changed_files(changed_files_str):
     return json.loads(changed_files_str)
 
 
-def main(repo_name, pr_number, token, report_name, min_statement_coverage, changed_files_str):
+def main(repo_name, pr_number, token, report_name, min_statement_coverage, changed_files_str, include_package_coverage):
 
     icon_mappings = config['render']['icon_mappings']
     changed_files = parse_changed_files(changed_files_str)
     threshold = __valid_threshold(min_statement_coverage)
     report_coverage = process_report(report_name, threshold, changed_files)
-    comment = render_pr_comment(report_coverage, icon_mappings)
+    comment = render_pr_comment(report_coverage, icon_mappings, include_package_coverage)
     publish_comment(token, repo_name, pr_number, comment)
 
     # Output results for Github Actions
@@ -48,5 +48,6 @@ if __name__ == "__main__":
     report_file_name = os.environ["INPUT_FILE"]
     min_stmt_cov = os.environ["INPUT_MINSTATEMENTCOV"]
     changed_fs_str = os.environ["INPUT_CHANGEDFILES"]
+    include_package_cov = os.environ["INPUT_INCLUDEPACKAGECOV"]
 
-    main(repo, issue_number, access_token, report_file_name, min_stmt_cov, changed_fs_str)
+    main(repo, issue_number, access_token, report_file_name, min_stmt_cov, changed_fs_str, include_package_cov)
