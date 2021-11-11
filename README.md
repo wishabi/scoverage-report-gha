@@ -17,9 +17,7 @@ Sample output
 
 ## Example usage
 
-# TODO: UPDATE EXAMPLE BELOW!!!!
-
-### v0.4-alpha
+### v0.5-alpha
 ```yaml
 name: My Workflow
 on: [push, pull_request]
