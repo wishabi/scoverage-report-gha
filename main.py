@@ -1,5 +1,6 @@
 import os
 import json
+from distutils.util import strtobool
 from main.process import process_report
 from main.render import render_pr_comment
 from main.publish import publish_comment
@@ -48,6 +49,6 @@ if __name__ == "__main__":
     report_file_name = os.environ["INPUT_FILE"]
     min_stmt_cov = os.environ["INPUT_MINSTATEMENTCOV"]
     changed_fs_str = os.environ["INPUT_CHANGEDFILES"]
-    include_package_cov = os.environ["INPUT_INCLUDEPACKAGECOV"]
+    include_package_cov = bool(strtobool(os.environ["INPUT_INCLUDEPACKAGECOV"]))
 
     main(repo, issue_number, access_token, report_file_name, min_stmt_cov, changed_fs_str, include_package_cov)
