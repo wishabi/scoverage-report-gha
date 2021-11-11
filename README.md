@@ -17,6 +17,7 @@ Sample output
 
 ## Example usage
 
+### v0.5-alpha
 ```yaml
 name: My Workflow
 on: [push, pull_request]
@@ -27,11 +28,21 @@ jobs:
     - uses: actions/checkout@v2
 
     # Assuming you have an sbt scala project with scoverage plugin
-    # ...
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
     - name: Generate sbt-scoverage testing and coverage report
       run: |
         /usr/local/bin/platform-param-decrypt_linux > ~/.env
-        sbt coverage test coverageReport
+        sbt coverage test coverageReport coverageOff
+
+    # Get changed files from PR
+    - name: Get changed files
+      if: ${{ github.event.pull_request }}
+      uses: jitterbit/get-changed-files@v1
+      id: changed-files
+      with:
+        format: 'json'
 
     # Get scala version from build (on PR event)
     - name: Get Scala Version
@@ -45,7 +56,7 @@ jobs:
     # Then call the report action to post comment to PR (on PR event)
     - name: Run report action
       if: ${{ github.event.pull_request }}
-      uses: wishabi/scoverage-report-gha@v0.1-alpha
+      uses: wishabi/scoverage-report-gha@v0.5-alpha
       id: scoverage
       with:
         repo: ${{ github.repository }}
@@ -53,6 +64,8 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         file: target/scala-${{ steps.get-version.outputs.version }}/scoverage-report/scoverage.xml
         minStatementCov: 0.95
+        changedFiles: ${{ steps.changed-files.outputs.all }}
+        includePackageCov: true
     
     # (Optional) Print test coverage output (on PR event)
     - name: Check outputs

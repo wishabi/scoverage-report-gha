@@ -38,3 +38,16 @@ class CommentRow:
 @dataclass
 class Comment:
     msg: str
+
+
+@dataclass
+class CoverageSection:
+    visible: bool
+    headers: str
+    comment_rows: List[CommentRow]
+
+
+@dataclass
+class Table:
+    visible: bool
+    str_contents: List[str]
