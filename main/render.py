@@ -87,7 +87,7 @@ def __gen_table(section: CoverageSection):
     for entry in section.comment_rows:
         result_name = entry.name
         percentage_result = round(entry.value * 100, 2)
-        formatted_result = int(percentage_result) if (1 <= percentage_result < 100) else percentage_result
+        formatted_result = int(percentage_result) if (1 <= percentage_result < 99.5) else percentage_result
         result_icon = entry.icon
         table_entries.append(
             '|%s|%s|%s|' % (result_name, str(formatted_result), result_icon)
