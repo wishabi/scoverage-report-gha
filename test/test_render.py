@@ -12,8 +12,8 @@ class TestRender(unittest.TestCase):
         results = ReportCoverage(
             overall=CoverageEntry('statement_coverage', 0.75, threshold=0.20, cov_type=CoverageType.OVERALL),
             packages=[
-                CoverageEntry('com.app.pk1', 0.9, cov_type=CoverageType.PACKAGE),
-                CoverageEntry('com.app.pk2', 0.6, cov_type=CoverageType.PACKAGE)
+                CoverageEntry('com.app.pk1', 0.915, cov_type=CoverageType.PACKAGE),
+                CoverageEntry('com.app.pk2', 0.663, cov_type=CoverageType.PACKAGE)
             ],
             changed_files=[]
         )
@@ -21,15 +21,15 @@ class TestRender(unittest.TestCase):
         expected_comment = self.__build_comment([
             '|Overall|%|Status|',
             '|:-|:-:|:-:|',
-            '|Statement Coverage|75.0|:white_check_mark:|',
+            '|Statement Coverage|75|:white_check_mark:|',
             '',
             '|Changed File(s)|%|Status|',
             '|:-|:-:|:-:|',
             '',
             '|Package Coverage|%|Status|',
             '|:-|:-:|:-:|',
-            '|com.app.pk1|90.0||',
-            '|com.app.pk2|60.0||'
+            '|com.app.pk1|91||',
+            '|com.app.pk2|66||'
         ])
         self.assertEqual(comment.msg, expected_comment)
 
@@ -46,15 +46,15 @@ class TestRender(unittest.TestCase):
         expected_comment = self.__build_comment([
             '|Overall|%|Status|',
             '|:-|:-:|:-:|',
-            '|Statement Coverage|60.0|:x:|',
+            '|Statement Coverage|60|:x:|',
             '',
             '|Changed File(s)|%|Status|',
             '|:-|:-:|:-:|',
             '',
             '|Package Coverage|%|Status|',
             '|:-|:-:|:-:|',
-            '|com.app.pk1|70.0||',
-            '|com.app.pk2|50.0||'
+            '|com.app.pk1|70||',
+            '|com.app.pk2|50||'
         ])
         self.assertEqual(comment.msg, expected_comment)
 
@@ -73,16 +73,16 @@ class TestRender(unittest.TestCase):
         expected_comment = self.__build_comment([
             '|Overall|%|Status|',
             '|:-|:-:|:-:|',
-            '|Statement Coverage|75.0|:white_check_mark:|',
+            '|Statement Coverage|75|:white_check_mark:|',
             '',
             '|Changed File(s)|%|Status|',
             '|:-|:-:|:-:|',
-            '|File.scala - ClassX|95.0||',
+            '|File.scala - ClassX|95||',
             '',
             '|Package Coverage|%|Status|',
             '|:-|:-:|:-:|',
-            '|com.app.pk1|90.0||',
-            '|com.app.pk2|60.0||'
+            '|com.app.pk1|90||',
+            '|com.app.pk2|60||'
         ])
         self.assertEqual(comment.msg, expected_comment)
 
@@ -101,11 +101,11 @@ class TestRender(unittest.TestCase):
         expected_comment = self.__build_comment([
             '|Overall|%|Status|',
             '|:-|:-:|:-:|',
-            '|Statement Coverage|75.0|:white_check_mark:|',
+            '|Statement Coverage|75|:white_check_mark:|',
             '',
             '|Changed File(s)|%|Status|',
             '|:-|:-:|:-:|',
-            '|File.scala - ClassX|95.0||',
+            '|File.scala - ClassX|95||',
         ])
         self.assertEqual(comment.msg, expected_comment)
 
