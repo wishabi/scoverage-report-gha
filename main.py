@@ -31,10 +31,11 @@ def parse_changed_files(changed_files_str):
 def main(repo_name, pr_number, token, report_name, min_statement_coverage, changed_files_str, include_package_coverage):
 
     icon_mappings = config['render']['icon_mappings']
+    coverage_score_mappings = config['render']['coverage_score_mappings']
     changed_files = parse_changed_files(changed_files_str)
     threshold = __valid_threshold(min_statement_coverage)
     report_coverage = process_report(report_name, threshold, changed_files)
-    comment = render_pr_comment(report_coverage, icon_mappings, include_package_coverage)
+    comment = render_pr_comment(report_coverage, icon_mappings, coverage_score_mappings, include_package_coverage)
     publish_comment(token, repo_name, pr_number, comment)
 
     # Output results for Github Actions

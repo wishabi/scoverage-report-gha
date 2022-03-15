@@ -7,6 +7,14 @@ config = {
             'failed': ':x:',                    # Had lower coverage than threshold
             'unknown': 'unknown',
             'na': ''                            # Don't want to include an icon
+        },
+
+        # Icons used to decorate individual coverage results (file, packages, etc).
+        "coverage_score_mappings": {
+            'good': ':green_circle:',
+            'ok': ':yellow_circle:',
+            'poor': ':red_circle:',
+            'na': ':question:'
         }
     }
 }
