@@ -2,7 +2,7 @@ from .models import CommentRow, Comment
 from .models import CoverageType, ReportCoverage, CoverageEntry, CoverageSection, Table
 
 
-def render_pr_comment(report_coverage: ReportCoverage, icon_mapping, include_package_coverage=True):
+def render_pr_comment(report_coverage: ReportCoverage, render_config, include_package_coverage=True):
     overall_cov = report_coverage.overall
     packages_cov = report_coverage.packages
     changed_files_cov = report_coverage.changed_files
@@ -15,7 +15,7 @@ def render_pr_comment(report_coverage: ReportCoverage, icon_mapping, include_pac
             CommentRow(
                 name=__get_printable_name(overall_cov.name),
                 value=overall_cov.result,
-                icon=__get_icon(overall_cov, icon_mapping)
+                icon=__get_icon(overall_cov, render_config)
             )
         ]
     )
@@ -27,7 +27,7 @@ def render_pr_comment(report_coverage: ReportCoverage, icon_mapping, include_pac
             CommentRow(
                 name=pkg.name,
                 value=pkg.result,
-                icon=__get_icon(pkg, icon_mapping)
+                icon=__get_icon(pkg, render_config)
             )
         )
     package_section = CoverageSection(
@@ -43,7 +43,7 @@ def render_pr_comment(report_coverage: ReportCoverage, icon_mapping, include_pac
             CommentRow(
                 name=file_cov.name,
                 value=file_cov.result,
-                icon=__get_icon(file_cov, icon_mapping)
+                icon=__get_icon(file_cov, render_config)
             )
         )
     changed_files_section = CoverageSection(
@@ -65,22 +65,35 @@ def __get_printable_name(coverage_entry_name):
     return coverage_entry_name.title().replace("_", " ")
 
 
-def __get_icon(coverage_entry: CoverageEntry, icon_mapping):
+def __get_icon(coverage_entry: CoverageEntry, render_config):
     result_icon = ""
     if coverage_entry.cov_type in (CoverageType.PACKAGE, CoverageType.CHANGED_FILE):
-        result_icon = icon_mapping['na']
+        result_icon = __get_coverage_score_icon(coverage_entry.result, render_config['coverage_score'])
     elif coverage_entry.threshold is None:
-        result_icon = icon_mapping['unknown']
+        result_icon = render_config['coverage_status']['unknown']
     else:
-        result_icon = icon_mapping['failed'] if (coverage_entry.result < coverage_entry.threshold) else icon_mapping['passed']
+        result_icon = render_config['coverage_status']['failed'] if (coverage_entry.result < coverage_entry.threshold) else render_config['coverage_status']['passed']
     return result_icon
+
+
+def __get_coverage_score_icon(coverage_result: float, coverage_score_mappings):
+    score_icon = ""
+    if coverage_result >= 0.8:
+        score_icon = coverage_score_mappings['good']
+    elif coverage_result >= 0.4:
+        score_icon = coverage_score_mappings['ok']
+    elif coverage_result > 0:
+        score_icon = coverage_score_mappings['poor']
+    else:
+        score_icon = coverage_score_mappings['na']
+    return score_icon
 
 
 def __gen_table(section: CoverageSection):
 
     table_header = [
         section.headers,
-        '|:-|:-:|:-:|'
+        '|:-|-:|:-:|'
     ]
 
     table_entries = []
