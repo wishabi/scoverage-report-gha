@@ -6,8 +6,7 @@ from main.render import render_pr_comment
 
 class TestRender(unittest.TestCase):
 
-    ICON_MAPPINGS = config['render']['icon_mappings']
-    COVERAGE_SCORE_MAPPINGS = config['render']['coverage_score_mappings']
+    RENDER_CONFIG = config['render']
 
     def test_render_pr_comment_pass_threshold(self):
         results = ReportCoverage(
@@ -18,7 +17,7 @@ class TestRender(unittest.TestCase):
             ],
             changed_files=[]
         )
-        comment = render_pr_comment(results, self.ICON_MAPPINGS, self.COVERAGE_SCORE_MAPPINGS)
+        comment = render_pr_comment(results, self.RENDER_CONFIG)
         expected_comment = self.__build_comment([
             '|Overall|%|Status|',
             '|:-|-:|:-:|',
@@ -43,7 +42,7 @@ class TestRender(unittest.TestCase):
             ],
             changed_files=[]
         )
-        comment = render_pr_comment(results, self.ICON_MAPPINGS, self.COVERAGE_SCORE_MAPPINGS)
+        comment = render_pr_comment(results, self.RENDER_CONFIG)
         expected_comment = self.__build_comment([
             '|Overall|%|Status|',
             '|:-|-:|:-:|',
@@ -70,7 +69,7 @@ class TestRender(unittest.TestCase):
                 CoverageEntry('File.scala - ClassX', 0.95, cov_type=CoverageType.CHANGED_FILE)
             ]
         )
-        comment = render_pr_comment(results, self.ICON_MAPPINGS, self.COVERAGE_SCORE_MAPPINGS)
+        comment = render_pr_comment(results, self.RENDER_CONFIG)
         expected_comment = self.__build_comment([
             '|Overall|%|Status|',
             '|:-|-:|:-:|',
@@ -98,7 +97,7 @@ class TestRender(unittest.TestCase):
                 CoverageEntry('File.scala - ClassX', 0.95, cov_type=CoverageType.CHANGED_FILE)
             ]
         )
-        comment = render_pr_comment(results, self.ICON_MAPPINGS, self.COVERAGE_SCORE_MAPPINGS, include_package_coverage=False)
+        comment = render_pr_comment(results, self.RENDER_CONFIG, include_package_coverage=False)
         expected_comment = self.__build_comment([
             '|Overall|%|Status|',
             '|:-|-:|:-:|',
