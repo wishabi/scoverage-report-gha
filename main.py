@@ -28,6 +28,11 @@ def parse_changed_files(changed_files_str):
     return json.loads(changed_files_str)
 
 
+def set_output(name, value):
+    with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+        print(f'{name}={value}', file=fh)
+
+
 def main(repo_name, pr_number, token, report_name, min_statement_coverage, changed_files_str, include_package_coverage):
 
     render_config = config['render']
@@ -38,7 +43,7 @@ def main(repo_name, pr_number, token, report_name, min_statement_coverage, chang
     publish_comment(token, repo_name, pr_number, comment)
 
     # Output results for Github Actions
-    print(f"::set-output name=statementCoverage::{report_coverage.overall.result}")
+    set_output("statementCoverage", report_coverage.overall.result)
 
 
 if __name__ == "__main__":
